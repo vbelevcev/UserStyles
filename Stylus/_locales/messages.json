@@ -1,0 +1,2033 @@
+{
+  "addStyleLabel": {
+    "message": "Создать стиль",
+    "description": "Надпись на кнопке, которая ведёт на страницу создания нового стиля"
+  },
+  "addStyleTitle": {
+    "message": "Добавление стиля",
+    "description": "Заголовок страницы создания / добавления нового стиля"
+  },
+  "alphaChannel": {
+    "message": "Прозрачность",
+    "description": "Название настройки прозрачности (альфа-канала) цвета"
+  },
+  "appliesAdd": {
+    "message": "Добавить",
+    "description": "Надпись на кнопке добавления нового правила применения стиля"
+  },
+  "appliesDisplay": {
+    "message": "Применить к: $applies$",
+    "placeholders": {
+      "applies": {
+        "content": "$1"
+      }
+    },
+    "description": "Шаблон текста, показывающий, к чему применяется данный стиль"
+  },
+  "appliesDisplayTruncatedSuffix": {
+    "message": "и другие",
+    "description": "Текст, добавляемый в конец, когда список сайтов слишком длинный и обрезан"
+  },
+  "appliesDomainOption": {
+    "message": "URL в домене",
+    "description": "Вариант: применять стиль ко всем страницам указанного домена"
+  },
+  "appliesHelp": {
+    "message": "Чтобы указать, к каким URL относится код в этом разделе, воспользуйтесь параметром \"Применить к\".",
+    "description": "Поясняющий текст в разделе «Применить к»"
+  },
+  "appliesLabel": {
+    "message": "Применить к:",
+    "description": "Метка поля, где указываются сайты/URL, к которым применяется стиль"
+  },
+  "appliesLineWidgetLabel": {
+    "message": "Показать целевые сайты секций",
+    "description": "Надпись чекбокса, показывающего информацию о применении в секционном редакторе"
+  },
+  "appliesLineWidgetWarning": {
+    "message": "Не работает с минифицированным CSS",
+    "description": "Предупреждение, что информация о применении плохо отображается при минификации CSS"
+  },
+  "appliesRegexpOption": {
+    "message": "URL, соответствующим регулярному выражению",
+    "description": "Вариант: применять стиль к URL, соответствующим регулярному выражению"
+  },
+  "appliesRemove": {
+    "message": "Удалить",
+    "description": "Надпись на кнопке удаления одного правила применения"
+  },
+  "appliesRemoveError": {
+    "message": "Последний элемент удалить нельзя",
+    "description": "Сообщение об ошибке при попытке удалить последнее правило применения"
+  },
+  "appliesToEverything": {
+    "message": "Все",
+    "description": "Текст, показываемый для стилей, которые применяются ко всем сайтам"
+  },
+  "appliesUrlOption": {
+    "message": "URL",
+    "description": "Вариант: применять стиль только к точному указанному URL"
+  },
+  "appliesUrlPrefixOption": {
+    "message": "URL, начинающимся с",
+    "description": "Вариант: применять стиль ко всем URL, начинающимся с указанной строки"
+  },
+  "applyAllUpdates": {
+    "message": "Применить все обновления",
+    "description": "Надпись кнопки применения всех найденных обновлений сразу"
+  },
+  "author": {
+    "message": "Автор",
+    "description": "Метка поля с именем автора стиля"
+  },
+  "backup": {
+    "message": "Резервное копирование",
+    "description": "Заголовок раздела резервного копирования"
+  },
+  "backupReminder": {
+    "message": "<b>Стили могут быть потеряны</b> из-за сбоев в электросети, ошибок в браузере или личных ошибок.<hr> <b>Резервное копирование данных:</b> либо настройте \"Синхронизацию с облаком\" в настройках, либо вручную нажимайте кнопку \"Экспорт\" каждый раз, когда вносите значительные изменения или настройте автоматическое резервное копирование всех ваших данных с помощью отдельного приложения.",
+    "description": "Показано в менеджере стилей. Текст между <b> и </b> выделен жирным шрифтом, <hr> - это просто пустая строка между ними, чтобы сделать текст более читабельным."
+    },
+  "checkAllUpdates": {
+    "message": "Проверить наличие обновлений для всех стилей",
+    "description": "Надпись кнопки проверки обновлений для всех стилей сразу"
+  },
+  "checkAllUpdatesForce": {
+    "message": "Я не менял стили, проверить заново!",
+    "description": "Надпись кнопки принудительной повторной проверки обновлений"
+  },
+  "checkForUpdate": {
+    "message": "Проверить обновление",
+    "description": "Надпись кнопки проверки обновления одного конкретного стиля"
+  },
+  "checkingForUpdate": {
+    "message": "Проверка обновлений…",
+    "description": "Текст, показываемый во время проверки обновления"
+  },
+  "clickToUninstall": {
+    "message": "Нажмите, чтобы удалить стиль",
+    "description": "Метка для наложения на миниатюру стиля при установке с помощью встроенного поиска во всплывающем окне"
+  },
+  "cm_arrowKeysTraverse": {
+"message": "Перемещение по разделам клавишами ↑↓ ",
+"description": "Пометьте этот параметр в редакторе."
+  },
+  "cm_autoCloseBrackets": {
+    "message": "Автозакрытие скобок и кавычек",
+    "description": "Метка для флажка в редакторе стилей."
+  },
+  "cm_autoCloseBracketsTooltip": {
+    "message": "Автоматическое добавление закрывающей пары при вводе открывающей ()[]{}''\"\"",
+    "description": "Метка для флажка в редакторе стилей."
+  },
+  "cm_autocompleteOnTyping": {
+    "message": "Подсказки при наборе кода",
+    "description": "Метка для флажка в редакторе стилей."
+  },
+  "cm_colorpicker": {
+    "message": "Палитра для цветов CSS",
+    "description": "Метка для флажка, управляющего параметром выбора цвета в редакторе стилей."
+  },
+  "cm_indentWithTabs": {
+    "message": "Умные отступы при помощи табуляции",
+    "description": "Название опции использования табуляции с умными отступами"
+  },
+  "cm_keyMap": {
+    "message": "Раскладка",
+    "description": "Метка выпадающего списка выбора раскладки клавиш."
+  },
+  "cm_lineWrapping": {
+    "message": "Перенос по словам",
+    "description": "Метка для флажка, управляющего параметром переноса слов в редакторе стилей."
+  },
+  "cm_linter": {
+    "message": "Проверка CSS",
+    "description": "Метка выбора линтера для проверки CSS"
+  },
+  "cm_matchHighlight": {
+    "message": "Подсветка",
+    "description": "Метка выбора режима подсветки совпадений текущего слова/выделения"
+  },
+  "cm_matchHighlightSelection": {
+    "message": "Выделенный текст",
+    "description": "Вариант подсветки: выделенный в данный момент текст"
+  },
+  "cm_matchHighlightToken": {
+    "message": "Элемент под курсором",
+    "description": "Вариант подсветки: слово/токен под курсором"
+  },
+  "cm_resizeGripHint": {
+    "message": "Щелкните дважды, чтобы максимизировать или восстановить высоту",
+    "description": "Подсказка на полосе изменения размера редактора"
+  },
+  "cm_selectByTokens": {
+    "message": "Двойной щелчок выделяет лексемы",
+    "description": "Название опции: двойной клик выделяет CSS-токены, а не слова.!!!"
+  },
+  "cm_selectByTokensTooltip": {
+    "message": "Примеры лексем: .foo-bar-2 #aabbcc 0.32 !important\nЕсли отключено: выделяются слова, ограниченные пунктуацией."
+  },
+  "cm_smartIndent": {
+    "message": "Использовать умные отступы",
+    "description": "Метка для флажка, управляющего параметром интеллектуального отступа в редакторе стилей."
+  },
+  "cm_tabSize": {
+    "message": "Размер табуляции",
+    "description": "Метка для текстового поля, управляющая параметром размера вкладки в редакторе стилей."
+  },
+  "cm_theme": {
+    "message": "Тема",
+    "description": "Ярлык для CSS-темы для редактора стилей."
+  },
+  "colorpickerPaletteHint": {
+    "message": "Щёлкните правой кнопкой мыши по образцу, чтобы просмотреть его исходные строки"
+  },
+  "colorpickerSwitchFormatTooltip": {
+    "message": "Переключить формат: HEX -> RGB -> HSL.\nЩелкните с зажатым Shift, чтобы изменить направление.\nТакже с помощью клавиш PgUp (PageUp), PgDn (PageDown).",
+    "description": "Подсказка к кнопке смены формата цвета (HEX→RGB→HSL)."
+  },
+  "colorpickerTooltip": {
+    "message": "Изменить цвет",
+    "description": "Подсказка к квадратикам цвета перед значениями в редакторе стилей CSS."
+  },
+  "configOnChange": {
+    "message": "сразу",
+    "description": "VERY SHORT label for the checkbox in style config dialog after the save button - when enabled the changes in the dialog are saved and applied automatically without the need to press the Save button"
+  },
+  "configOnChangeTooltip": {
+    "message": "Сохранять и применять изменения автоматически"
+  },
+  "configureStyle": {
+    "message": "Настроить",
+    "description": "Надпись кнопки открытия настроек стиля (UserCSS переменные)"
+  },
+  "configureStyleOnHomepage": {
+    "message": "Настроить на главной странице",
+    "description": "Надпись кнопки настройки стиля на его домашней странице"
+  },
+  "confirmCancel": {
+    "message": "Отмена"
+  },
+  "confirmClose": {
+    "message": "Закрыть",
+    "description": "'Диалоговое окно закрыть"
+  },
+  "confirmDefault": {
+    "message": "По умолчанию",
+    "description": "'Надпись кнопки По умолчаню в диалоге подтверждения"  },
+  "confirmDelete": {
+    "message": "Удалить"
+  },
+  "confirmDiscardChanges": {
+    "message": "Отменить изменения?",
+    "description": "Вопрос/заголовок при попытке закрыть окно с несохранёнными изменениями"
+  },
+  "confirmNo": {
+    "message": "Нет",
+    "description": "Надпись кнопки Нет в диалоге подтверждения"
+  },
+  "confirmOK": {
+    "message": "OK"
+  },
+  "confirmSave": {
+    "message": "Сохранить",
+    "description": "Надпись кнопки Сохранить в диалоге подтверждения"
+  },
+  "confirmStop": {
+    "message": "Стоп",
+    "description": "Надпись кнопки Стоп в диалоге подтверждения"
+  },
+  "confirmYes": {
+    "message": "Да",
+    "description": "Надпись кнопки Да в диалоге подтверждения"
+  },
+  "copy": {
+    "message": "Скопировать в буфер обмена",
+    "description": "Подсказка к элементам, которые можно скопировать в буфер обмена"
+  },
+  "customNameHint": {
+    "message": "Введите здесь пользовательское название, чтобы переименовать стиль в пользовательском интерфейсе, не нарушая его обновления"
+  },
+   "customNameResetHint": {
+    "message": "Прекратить использовать пользовательское название, перейдите на собственное название стиля",
+    "description": "Подсказка к кнопке сброса пользовательского имени на оригинальное.Всплывающая подсказка к кнопке X, отображаемая в редакторе при изменении названия, вводимого для a) стилей, обновленных с URL-адреса, т.е. не созданных локально, b) UserCSS стиль"
+  },
+  "dateAbbrDay": {
+    "message": "$value$d",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    },
+    "description": "Суффикс дня в краткой относительной дате, например: 8д"
+  },
+  "dateAbbrHour": {
+    "message": "$value$h",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    },
+    "description": "Суффикс часа в краткой относительной дате, например: 8ч"
+  },
+  "dateAbbrMonth": {
+    "message": "$value$m",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    },
+    "description": "Суффикс месяца в краткой относительной дате, например: 8м"
+  },
+  "dateAbbrYear": {
+    "message": "$value$y",
+    "placeholders": {
+      "value": {
+        "content": "$1"
+      }
+    },
+    "description": "Суффикс года в краткой относительной дате, например: 8г"
+  },
+  "dateInstalled": {
+    "message": "Дата установки",
+    "description": "Текст опции сортировки стилей по дате установки"
+  },
+  "dateUpdated": {
+    "message": "Дата обновления",
+    "description": "Текст опции сортировки стилей по дате последнего обновления"
+  },
+  "dbError": {
+    "message": "Возникла ошибка доступа к базе данных Stylus. Хотите перейти на страницу с возможными способами решения?",
+    "description": "Запрос при обнаружении ошибки базы данных"
+  },
+  "defaultTheme": {
+    "message": "по умолчанию",
+    "description": "Опция темы CodeMirror по умолчанию в редакторе"
+  },
+  "deleteStyleConfirm": {
+    "message": "Удалить этот стиль?",
+    "description": "Подтверждение перед удалением стиля"
+  },
+  "deleteStyleLabel": {	
+    "message": "Удалить",
+    "description": "Метка кнопки удаления стиля"
+  },
+  "description": {
+    "message": "Настраивайте стили сайтов с помощью менеджера стилей Stylus. Он позволяет легко установить темы и изменить внешность часто посещаемых страниц.",
+    "description": "Описание расширения в магазине"
+  },
+  "disableAllStyles": {
+    "message": "Отключить все стили",
+    "description": "Надпись чекбокса полного отключения всех стилей"
+  },
+  "disableAllStylesOff": {
+    "message": "Стили отключены",
+    "description": "Текст, когда главный переключатель выключен"
+  },
+  "disableStyleLabel": {
+    "message": "Отключить",
+    "description": "Надпись кнопки отключения отдельного стиля"
+  },
+  "draftAction": {
+	  "message": "Выберите «Да» для загрузки черновика или «Нет», чтобы отменить его.",
+    "description": "Текст в редакторе после сбоя браузера/расширения"
+  },
+  "draftTitle": {
+    "message": "Восстановление черновика, созданного $date$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    },
+    "description": "Название модального элемента, отображаемого в редакторе при обнаружении несохраненного черновика, $date$ выглядит как 1 час назад на текущем языке пользовательского интерфейса пользователя"
+  },
+  "dragDropMessage": {
+    "message": "Перетащите файл с резервной копией стилей в любое место этой страницы, чтобы импортировать его.",
+    "description": "Сообщение при перетаскивании файла в менеджер стилей"
+	},
+  "dragDropUsercssTabstrip": {
+    "message": "Чтобы установить файл, поместите его на вкладку (область, где отображаются заголовки вкладок).",
+    "description": "Сообщение при ошибочном перетаскивании UserCSS-файла в менеджер"
+  },
+  "editDeleteText": {
+    "message": "Удалить",
+    "description": "Пункт контекстного меню редактора — удалить выделенный текст"
+  },
+  "editGotoLine": {
+    "message": "Перейти к строке (или строке:колонке)",
+    "description": "Подсказка к комбинации Ctrl-G в редакторе кода"
+  },
+  "editStyleHeading": {
+    "message": "Редактор стиля",
+    "description": "Заголовок страницы редактирования стиля"
+  },
+  "editStyleLabel": {
+    "message": "Отредактировать",
+    "description": "Надпись кнопки перехода к редактированию стиля"
+  },
+  "editTargetsFirst": {
+    "message": "Показывать целевые сайты перед кодом",
+    "description": "Опция: показывать список сайтов перед кодом в секционном редакторе"
+  },
+  "editorSettings": {
+    "message": "Редактирование"
+  },
+  "emptyCode": {
+    "message": "Разделы стилей для этого URL пусты."
+  },
+  "enableStyleLabel": {
+    "message": "Включить",
+    "description": "Надпись кнопки включения отдельного стиля"
+  },
+  "exclude": {
+    "message": "Исключая"
+  },
+  "exportCompatible": {
+    "message": "Экспорт (режим совместимости)"
+  },
+  "exportLabel": {
+    "message": "Экспорт",
+    "description": "Надпись кнопки экспорта (в редакторе или менеджере)"
+  },
+  "exportStyles": {
+    "message": "Экспорт стилей"
+  },
+  "externalFeedback": {
+    "message": "Отзывы",
+    "description": "Ссылка на страницу отзывов/обсуждения стиля"
+  },
+  "externalHomepage": {
+    "message": "Главная страница",
+    "description": "Ссылка на домашнюю страницу стиля"
+  },
+  "externalLink": {
+    "message": "Внешняя ссылка",
+    "description": "Общее название для внешних ссылок"
+  },
+  "externalSupport": {
+    "message": "Поддержка",
+    "description": "Ссылка на страницу поддержки стиля"
+  },
+  "externalUsercssDocument": {
+    "message": "Документация по UserCSS",
+    "description": "Ссылка на документацию формата UserCSS"
+  },
+  "filteredStyles": {
+    "message": "$numShown$ показано из $numTotal$ всего",
+    "placeholders": {
+      "numTotal": {
+        "content": "$2"
+      },
+      "numShown": {
+        "content": "$1"
+      }
+    },
+    "description": "Короткий текст количества отфильтрованных стилей TL - сделайте это сообщение короче"
+  },
+  "filteredStylesAllHidden": {
+    "message": "Применённые фильтры не соответствуют ни одному стилю",
+    "description": "Сообщение, когда фильтры скрыли все стили"
+  },
+  "find": {
+    "message": "Поиск стилей",
+    "description": "Надпись кнопки поиска стилей для текущего сайта"
+  },
+  "findStyles": {
+    "message": "Поиск стилей",
+    "description": "Текст ссылки на поиск стилей для текущего сайта"
+  },
+  "findStylesOnline": {
+    "message": "Нажмите, чтобы найти стили в Интернете.",
+    "description": "Текст под сообщением «Нет стилей для этого сайта»"
+  },
+  "general": {
+    "message": "Общие",
+    "description": "Название раздела с общими настройками"
+  },
+  "genericAdd": {
+    "message": "Добавить",
+    "description": "Общее действие добавления чего-либо"
+  },
+  "genericClone": {
+    "message": "Клонировать",
+    "description": "Общее действие клонирования стиля/правила"
+  },
+  "genericDescription": {
+    "message": "Описание"
+  },
+  "genericDisabledLabel": {
+    "message": "Отключёно",
+    "description": "Общий текст для отключённого состояния"
+  },
+  "genericEnabledLabel": {
+    "message": "Активно",
+    "description": "Общий текст для включённого состояния"
+  },
+  "genericError": {
+    "message": "Ошибка",
+    "description": "Общее название ошибки"
+  },
+  "genericHistoryLabel": {
+    "message": "История",
+    "description": "Общее название для истории изменений/обновлений"
+  },
+  "genericMaximum": {
+    "message": "Макс."
+  },
+  "genericMinimum": {
+    "message": "Мин."
+  },
+  "genericNext": {
+    "message": "Следующий",
+    "description": "Общее действие «далее»"
+  },
+  "genericPrevious": {
+    "message": "Предыдущий",
+    "description": "Общее действие «назад»"
+  },
+  "genericResetLabel": {
+    "message": "Сброс",
+    "description": "Общее действие сброса настроек"
+  },
+  "genericSize": {
+    "message": "Размер"
+  },
+  "genericTest": {
+    "message": "Тест",
+    "description": "Надпись кнопки тестирования (например, regexp)"
+  },
+  "genericTitle": {
+    "message": "Имя",
+    "description": "Общее название поля имени"
+  },
+  "genericUnknown": {
+    "message": "Неизвестно",
+    "description": "Текст вместо неизвестного значения"
+  },
+  "gettingStyles": {
+    "message": "Получение всех стилей..."
+  },
+  "headerResizerHint": {
+    "message": "С клавишей Shift размер меняется только для такого же типа страниц, т.е. редактор, менеджер, установщик",
+    "description": "Подсказка к изменению размера заголовка"
+  },
+  "helpAlt": {
+    "message": "Справка",
+    "description": "Альтернативные кнопки для помощи"
+  },
+  "helpKeyMapCommand": {
+    "message": "Введите имя команды",
+    "description": "На странице стиля редактирования всплывает временный текст для входного блока в keymap. Наверное, очень короткое"
+  },
+  "helpKeyMapHotkey": {
+    "message": "Нажмите клавишу",
+    "description": "На странице стиля редактирования всплывает временный текст для входного блока в keymap. Наверное, очень короткое"
+  },
+  "importAppendLabel": {
+    "message": "Добавить к стилю",
+    "description": "Пометьте кнопку для импорта стиля и добавления к существующим разделам"
+  },
+  "importAppendTooltip": {
+    "message": "Добавить импортируемый стиль к редактируемому",
+    "description": "Подсказка для кнопки для импорта стиля и добавления к существующим разделам"
+  },
+  "importLabel": {
+    "message": "Импорт",
+    "description": "Метка для кнопки для импорта стиля (редактор) или всех стилей (менеджер стилей)"
+  },
+  "importPreprocessor": {
+    "message": "Стиль с <@preprocessor> не будет работать в классическом режиме. Вы можете переключить редактор в режим UserCSS: 1) откройте менеджер стилей, 2) включить флажок \"в виде UserCSS\", 3) нажмите на \"Создать стиль\"\n\nИмпортировать сейчас?"
+  },
+  "importPreprocessorTitle": {
+    "message": "Потенциальная проблема из-за @preprocessor"
+  },
+  "importReplaceLabel": {
+    "message": "Перезаписать стиль",
+    "description": "Метка для кнопки для импорта и перезаписи текущего стиля"
+  },
+  "importReplaceTooltip": {
+    "message": "Удалить содержимое редактируемого стиля и заменить его на импортируемый стиль",
+    "description": "Метка для кнопки для импорта и перезаписи текущего стиля"
+  },
+  "importReportLegendAdded": {
+    "message": "добавлено",
+    "description": "Текст после количества добавленных стилей в отчёте после импорта стилей"
+  },
+  "importReportLegendIdentical": {
+    "message": "идентичные пропущены",
+    "description": "Текст после количества стилей пропущен из-за идентичности уже установленным в отчёте после импорта стилей"
+  },
+  "importReportLegendInvalid": {
+    "message": "некорректных пропущено",
+    "description": "Текст после количества стилей был пропущен из-за недействительности (вероятно, не файл резервной копии Stylus/Style) в отчёте, показанном после импорта стилей"
+  },
+  "importReportLegendOrphans": {
+    "message": "Установленные стили, не входящие в резервную копию",
+    "description": "Показано прямо рядом с количеством отсутствующих стилей в отчете после импорта"
+  },
+  "importReportLegendUpdatedBoth": {
+"message": "обновлены мета-данные и код",
+    "description": "Текст после количества полностью обновлённых стилей в отчёте, показанном после импорта стилей"
+  },
+  "importReportLegendUpdatedCode": {
+    "message": "обновлён код",
+    "description": "Текст после количества стилей с обновлённым кодом (метаинформация остаётся неизменной) в отчёте, отображаемом после импорта стилей"
+  },
+  "importReportLegendUpdatedMeta": {
+    "message": "обновлены мета-данные",
+    "description": "Текст после количества стилей с обновлённой метаинформацией, такой как name/url, в отчёте после импорта стилей"
+  },
+  "importReportTitle": {
+    "message": "Импорт стилей завершён",
+    "description": "Заголовок окна после отмены импорта"
+  },
+  "importReportUnchanged": {
+    "message": "Ничего не изменилось.",
+    "description": "Сообщение в отчёте, отображаемое после импорта стилей"
+  },
+  "importReportUndone": {
+    "message": "восстановленных стилей",
+    "description": "Текст после количества стилей, отменённых в окне сообщений, отображаемом после отмены импорта стилей"
+  },
+  "importReportUndoneTitle": {
+    "message": "Откат импорта завершён",
+    "description": "Заголовок окна сообщений, отображаемое после отмены импорта стилей"
+  },
+  "importStyles": {
+    "message": "Импорт стилей"
+  },
+  "include": {
+    "message": "Исключая"
+  },
+  "installButton": {
+    "message": "Установить стиль",
+    "description": "Надпись основной кнопки установки стиля"
+  },
+  "installButtonInstalled": {
+    "message": "Стиль установлен",
+    "description": "Текст после успешной установки"
+  },
+  "installButtonReinstall": {
+    "message": "Переустановить стиль",
+    "description": "Надпись кнопки переустановки стиля"
+  },
+  "installButtonUpdate": {
+    "message": "Обновить стиль",
+    "description": "Надпись кнопки обновления стиля"
+  },
+  "installUpdate": {
+    "message": "Установить обновление",
+    "description": "Надпись кнопки установки найденного обновления"
+  },
+  "installUpdateFrom": {
+    "message": "Источник обновления стиля: $url$",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    },
+    "description": "Текст с указанием источника обновления"
+  },
+  "installUpdateFromLabel": {
+    "message": "Проверить обновления",
+    "description": "Надпись чекбокса сохранения URL для проверки обновлений"
+  },
+  "license": {
+    "message": "Лицензия",
+    "description": "Метка поля лицензии стиля"
+  },
+  "linkGetHelp": {
+    "message": "Помощь",
+    "description": "Текст ссылки на страницу помощи/FAQ https://add0n.com/stylus.html#features"
+  },
+  "linkGetShareStyles": {
+    "message": "Поиск/публикация стилей",
+    "description": "Поиск по https://userstyles.world/"
+  },
+  "linkGetStyles": {
+    "message": "Скачать стили",
+    "description": "Текст справочной ссылки в менеджере стилей  https://userstyles.org"
+  },
+  "linkStylusWiki": {
+    "message": "Руководство",
+    "description": "Текст вики-ссылки в менеджере стилей https://github.com/openstyles/stylus/wiki"
+  },
+  "linkTranslate": {
+    "message": "Перевод",
+    "description": "Текст ссылки на страницу переводов"
+  },
+  "linterCSSLintIncompatible": {
+    "message": "CSSLint не поддерживает препроцессор $preprocessorname$",
+    "placeholders": {
+      "preprocessorname": {
+        "content": "$1"
+      }
+    },
+    "description": "Сообщение о несовместимости CSSLint с препроцессором"
+  },
+  "linterCSSLintSettings": {
+    "message": "(значения: 0 = выключить, 1 = предупреждение; 2 = ошибка)",
+    "description": "Пояснение значений настроек CSSLint"
+  },
+  "linterConfigPopupTitle": {
+    "message": "Установить конфигурацию правил $linter$",
+    "placeholders": {
+      "linter": {
+        "content": "$1"
+      }
+    },
+    "description": "Stylelint или CSSLint всплывающий заголовок"
+  },
+  "linterConfigTooltip": {
+    "message": "Настроить проверку CSS",
+    "description": "Подсказка с иконками, указывающая на открытие всплывающего окна с выбранной конфигурацией линтера"
+  },
+  "linterIssues": {
+    "message": "Проблемы",
+    "description": "Метка для блока CSS linter issues на странице редактирования стиля"
+  },
+  "linterIssuesHelp": {
+    "message": "Проблемы, найденные правилами $link$:",
+    "placeholders": {
+      "link": {
+        "content": "$1"
+      }
+    },
+    "description": "Всплывающее сообщение справки для выбранного блока проблем с компоновкой CSS на странице редактирования стиля"
+  },
+  "linterJSONError": {
+    "message": "Ошибка формата JSON",
+    "description": "Настройка конфигурации linter с некорректным JSON"
+  },
+  "linterResetMessage": {
+    "message": "Для отмены случайного сброса нажмите Ctrl-Z (или Cmd-Z) в окне ввода",
+    "description": "Подсказка кнопки сброса, чтобы информировать пользователя о том, как отменить случайный сброс"
+  },
+  "linterRulesLink": {
+    "message": "Открыть полный список правил",
+    "description": "Метка правил Stylelint или CSSLint добавляется непосредственно перед ссылкой"
+  },
+  "liveReloadAfterInstall": {
+    "message": "Автозагрузка изменений после установки",
+    "description": "Альтернативная надпись \"Live reload\" checkbox (liveReloadLabel translation key) для ещё не установленного стиля"
+  },
+  "liveReloadError": {
+    "message": "Ошибка слежения за файлом",
+    "description": "Метка ошибки при live-reload"
+  },
+  "liveReloadInstallHint": {
+    "message": "Держите эту вкладку открытой, чтобы автоматически обновлять стиль при внешних изменениях.",
+    "description": "Функция маркировки live-reload"
+  },
+  "liveReloadInstallHintFF": {
+    "message": "Оставьте эту вкладку и исходную вкладку открытой, чтобы автоматически обновлять стиль при внешних изменениях.",
+    "description": "Дополнительный намёк на возможность живой перезарядки показана только для file:// в Firefox"
+  },
+  "liveReloadLabel": {
+    "message": "Автозагрузка изменений",
+    "description": "Название функции автоматической перезагрузки изменений"
+  },
+  "manageFaviconsGray": {
+    "message": "Затемнить",
+    "description": "Метка для флажка, который переключает выделенный серым цветом режим применения значков в новом пользовательском интерфейсе в менеджере стилей"
+  },
+  "manageFilters": {
+    "message": "Фильтры",
+    "description": "Маркировка контейнера фильтров"
+  },
+  "manageMinColumnWidth": {
+    "message": "Минимальная ширина столбца (в пикселях; 9999 отключает многоколоночный режим)"
+	},
+  "manageNewUI": {
+    "message": "Новый интерфейс",
+    "description": "Покать новый интерфейс (сетка)"
+  },
+  "manageOnlyDisabled": {
+    "message": "Только отключенные стили",
+    "description": "Показывать только стили, которые отлючены"
+  },
+  "manageOnlyEnabled": {
+    "message": "Только включённые стили",
+    "description": "Показывать только стили, которые включены"
+  },
+  "manageOnlyExternal": {
+    "message": "Только сторонние стили",
+    "description": "Показывать только обновляемые (внешние) стили"
+  },
+  "manageOnlyLocal": {
+    "message": "Только локально созданные стили",
+    "description": "Показывать только локально созданные стили, то есть не обновляемые"
+  },
+  "manageOnlyLocalTooltip": {
+    "message": "(т.е. стили, не установленные посредством сайта userstyles.org)",
+    "description": "Подсказка,только локально созданные стили, то есть неподлежащие обновлению"
+  },
+  "manageOnlyNonUsercss": {
+    "message": "Спрятать UserCSS стили",
+    "description": "Галочка, чтобы показать только стили, не относящиеся к UserCSS (стандартным)"
+  },
+  "manageOnlyUpdates": {
+    "message": "Только обновляемые и проблемные",
+    "description": "Чекбокс, показывающий только стили, которые обновляются после выполнения проверки всех стилей для обновлений"  },
+  "manageOnlyUsercss": {
+    "message": "Только UserCSS стили",
+    "description": "Галочка показа только UserCSS styles"
+  },
+  "manageStyles": {
+    "message": "Менеджер стилей"
+  },
+  "masterSwitch": {
+    "message": "Главный переключатель",
+    "description": "Главный переключатель, который переключает, применяет ли расширение какие-либо стили"
+  },
+  "menuShowBadge": {
+    "message": "Число активных стилей",
+    "description": "Метка  (должна быть очень короткой) для галочки в контекстном меню кнопки панели инструментов, управляющего текстом значка на панели инструментов."
+  },
+  "meta_invalidCheckboxDefault": {
+    "message": "Неверный флажок @var: значение должно быть 0 или 1",
+    "description": "Ошибка при неверном значении @var"
+  },
+  "meta_invalidColor": {
+    "message": "Неверный цвет @var: $color$ это не цвет",
+    "placeholders": {
+      "color": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var color недопустимо"
+  },
+  "meta_invalidNumber": {
+    "message": "Ожидание числа",
+    "description": "Ошибка отображается, когда ожидается, что значение будет числом"
+  },
+  "meta_invalidRange": {
+    "message": "Неверный @var$type$: значение должно быть числом или массивом ",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeDefault": {
+    "message": "Неверный @var $type$: значение по умолчанию равно нулю",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeMax": {
+    "message": "Неверный @var $type$: значение по умолчанию больше максимального",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeMin": {
+    "message": "Неверный @var $type$: значение по умолчанию ниже минимального",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeMultipleUnits": {
+    "message": "Неверный @var $type$: несколько единиц определены",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeStep": {
+    "message": "Неверный @var $type$: значение не является кратным шага",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeTooManyValues": {
+    "message": "Неверный @var $type$: массив содержит слишком много элементов",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeUnits": {
+    "message": "Неверный @var $type$: '$units$' не является действительной единицей",
+    "placeholders": {
+      "units": {
+        "content": "$2"
+      },
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidRangeValue": {
+    "message": "Неверный @var $type$: элементы в массиве должны быть числом, строкой или нулем",
+    "placeholders": {
+      "type": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отображается, когда значение @var диапазона или числа @var недопустимо"
+  },
+  "meta_invalidSelect": {
+    "message": "Неверный @var select: значением по умолчанию должен быть массив или объект",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectEmptyOptions": {
+    "message": "Неверный @var select: список опций пустой",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectLabel": {
+    "message": "Неверный @var select: ярлык опции пустой",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectMultipleDefaults": {
+    "message": "Неверный @var select: определены несколько параметров по умолчанию",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectNameDuplicated": {
+    "message": "Неверный @var select: имя опции дублируется",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectValue": {
+    "message": "Неверный @var select: значения внутри массива/объекта должны быть строкой",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidSelectValueMismatch": {
+    "message": "Неверный @var select: значение не существует в списке опций",
+    "description": "Ошибка отображается, когда @var select неверный"
+  },
+  "meta_invalidString": {
+    "message": "Ожидание строки в кавычках",
+    "description": "Ошибка отображается, когда ожидается, что значение будет строкой в кавычках"
+  },
+  "meta_invalidURLProtocol": {
+    "message": "Неверный протокол URL. Разрешены только http и https: $protocol$",
+    "placeholders": {
+      "protocol": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при некорректном протоколе URL"
+  },
+  "meta_invalidVersion": {
+    "message": "Неккоректный номер версии",
+    "description": "Ошибка при неверном формате @version"
+  },
+  "meta_invalidWord": {
+    "message": "Ожидание слова",
+    "description": "Ошибка отображается, когда ожидается, что значение будет словом"
+  },
+  "meta_missingChar": {
+    "message": "Ожидание символа: $chars$",
+    "placeholders": {
+      "chars": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка отобразиться, когда ожидается, что значение будет некоторыми символами"
+  },
+  "meta_missingEOT": {
+    "message": "Ожидание данной EOT",
+    "description": "Ошибка отобразиться, когда значение должно быть списком EOT"
+  },
+  "meta_missingMandatory": {
+    "message": "Отсутствуют обязательные метаданные: $keys$",
+    "placeholders": {
+      "keys": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при отсутствии обязательных полей"
+  },
+  "meta_unknownJSONLiteral": {
+    "message": "Неверный JSON: $literal$ не является допустимым литералом JSON",
+    "placeholders": {
+      "literal": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при неверном значении JSON"
+  },
+  "meta_unknownMeta": {
+    "message": "Неизвестные метаданные: $key$",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при неизвестном ключе метаданных"
+  },
+  "meta_unknownMetaTypo": {
+    "message": "Может быть, @$keyOk$? Неизвестные метаданные: @$keyErr$",
+    "placeholders": {
+      "keyErr": {
+        "content": "$1"
+      },
+      "keyOk": {
+        "content": "$2"
+      }
+    },
+    "description": "Попробуйте перевести так, чтобы хотя бы первый заполнитель был виден в нашей узкой панели. Это ошибка, которая возникает, когда неизвестный ключ метаданных достаточно похож на известный, чтобы считать его опечаткой."
+  },
+  "meta_unknownPreprocessor": {
+     "message": "Неизвестный @preprocessor: $preprocessor$",
+    "placeholders": {
+      "preprocessor": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при неизвестном препроцессоре"
+  },
+  "meta_unknownVarType": {
+    "message": "Неизвестый @$varkey$ тип: $vartype$",
+    "placeholders": {
+      "vartype": {
+        "content": "$2"
+      },
+      "varkey": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка при неизвестном типе переменной"
+  },
+  "newStyleAsUserCSS": {
+    "message": "Создать  новый стиль в формате UserCSS"
+  },
+  "newStyleAsUserCSSHint": {
+    "message": "Переключение опции также меняет текущий (ещё не сохранённый) стиль в редакторе на UserCSS-режим."
+  },
+  "noStylesForSite": {
+    "message": "Не установлено стилей для этого сайта.",
+    "description": "Сообщение при отсутствии стилей для текущего сайта"
+  },
+  "numberedLine": {
+    "message": "Линия:",
+    "description": "Текст перед номерами строк в отчётах ошибок."
+  },
+  "openAsPopupWindow": {
+    "message": "...без панелей инструментов и вкладок",
+    "description": "Часть предложения после галочки «Открывать редактор в новом окне»"
+  },
+  "openManage": {
+    "message": "Менеджер",
+    "description": "Ссылка на открытие менеджера стилей."
+  },
+  "openOptions": {
+    "message": "Настройки",
+    "description": "Ссылка на страницу настроек расширения"
+  },
+  "optionCompactWidth": {
+    "message": "Максимальная ширина окна для компактной компоновки пользовательского интерфейса (в пикселях)"
+  },
+  "optionConfigSidePanel": {
+    "message": "UserCSS конфигурация",
+    "description": "Метка опции, показанной после числа, указывающего минимальную длину конфигурации UserCSS, отображаемой на боковой панели."
+  },
+  "optionFOUC": {
+    "message": "Стили применяются слишком поздно?",
+    "description": "Показано в настройках. Затем FOUCMV2 или FOUCMV3."
+  },
+  "optionFOUCMV2": {
+    "message": "Следует включить опцию \"$optInst$\".",
+    "description": "$optInst$ заменяется переводом для 'Instant inject mode' option.",
+    "placeholders": {
+      "optInst": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionFOUCMV3": {
+    "message": "Следует включить опцию \"$optInst$\" и повысить значение \"$optCache$\".",
+    "description": "Рекомендация для Manifest V3 $optInst$ заменяется переводом для 'Instant inject mode' опции, $optCache$ заменяется переводом для 'Style cache duration' опции.",
+    "placeholders": {
+      "optInst": {
+        "content": "$1"
+      },
+      "optCache": {
+        "content": "$2"
+      }
+    }
+  },
+  "optionKeepAlive": {
+    "message": "Длительность кэширования стилей"
+  },
+  "optionKeepAlive2": {
+    "message": "(в минутах, -1 = без ограничений)",
+    "description": "Текст отображается после длительности кеширования (optionKeepAlive)"
+  },
+  "optionKeepAliveIdle": {
+    "message": "...даже если браузер неактивен",
+    "description": "Галочка кэширования при бездействии 'Style cache duration' (optionKeepAlive)"
+  },
+  "optionKeepAliveNote": {
+    "message": "Увеличьте этот параметр, если вы столкнулись с миганием нестилизованного контента (FOUC) при открытии страницы после длительного бездействия браузера.\n\n-1 = Поведение ManifestV2 по умолчанию (без ограничений).\n0 = Поведение ManifestV3 по умолчанию (полминуты).\n\nКэш занимает от 30 МБ оперативной памяти, но его восстановление может потребовать слишком много времени и вызвать FOUC в зависимости от сайта, скорости сети, количества стилей, размера оперативной памяти и быстродействия процессора."
+  },
+  "optionSidePanelActions": {
+    "message": "Действия в боковой панели"
+  },
+  "optionSidePanelActionsHint": {
+    "message": "Действия, которые будут открываться в боковой панели при использовании всплывающего окна в стандартном режиме (опция \"$optPopup$\" не включена).\n\nТакже можно щёлкнуть правой кнопкой мыши или долго нажать на соответствующую кнопку во всплывающем окне.",
+    "description": "$optPopup$ заменяется переводом \"Открывать всплывающее окно в боковой панели\"",
+    "placeholders": {
+      "optPopup": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionSidePanelNumberHint": {
+    "message": "1..99: минимальное количество элементов,\n0: всегда боковая панель,\n-1: всегда всплывающее окно."
+  },
+  "optionSidePanelPopup": {
+    "message": "Открывать всплывающее окно в боковой панели"
+  },
+  "optionTargetIcons": {
+    "message": "Иконки для целевых сайтов",
+    "description": "Метка для галочки, которая переключает иконки для целевых сайтов стиля в различных частях интерфейса"
+  },
+  "optionTargetIconsNote": {
+    "message": "Используется сторонний сервис $SRV$",
+    "description": "Метка для чекбокса, переключающего иконки, $SRV$ заменяется на настоящее название сервиса",
+    "placeholders": {
+      "SRV": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionTargetNum": {
+    "message": "Кол-во целевых сайтов/выражений",
+    "description": "Label for the numeric input box to limit max number of applies-to targets in the style manager"
+  },
+  "optionsAdvanced": {
+    "message": "Расширенное"
+  },
+  "optionsAdvancedAutoSwitchSchemeBySystem": {
+    "message": "По настройке операционной системы"
+  },
+  "optionsAdvancedAutoSwitchSchemeByTime": {
+    "message": "В ночное время:"
+  },
+  "optionsAdvancedAutoSwitchSchemeNever": {
+    "message": "Отключён. Настройка режима в стилях не учитывается."
+  },
+  "optionsAdvancedContextDelete": {
+    "message": "Показывать команду \"Удалить\" в контекстном меню редактора"
+  },
+  "optionsAdvancedExposeIframes": {
+    "message": "Выявлять <iframe> путём добавления <html[stylus-iframe]>"
+  },
+  "optionsAdvancedExposeIframesNote": {
+    "message": "Выставляет верхний домен сайта в каждом iframe.\nПозволяет писать iframe-specific CSS следующим образом:\nhtml[stylus-iframe$$=\"twitter.com\"] h1 { display:none }",
+    "description": "Добавьте атрибут в iframe; не забудьте включить двойной символ $$ в примере css, иначе `$=` будет пропущен в отображаемом тексте."
+  },
+  "optionsAdvancedExposeStyleName": {
+    "message": "Проставлять имя стиля"
+  },
+  "optionsAdvancedExposeStyleNameNote": {
+    "message": "Добавляет имя стиля в страницу для удобства отладки в инструментах разработчика. Требуется обновить вкладку после изменения."
+  },
+  "optionsAdvancedPatchCsp": {
+    "message": "Исправление <CSP> для обеспечения возможности использования стилевых материалов"
+  },
+  "optionsAdvancedPatchCspNote": {
+    "message": "Включите эту опцию, если стили содержат изображения или шрифты, которые не загружаются на сайтах со строгой <CSP>. (<Content-Security-Policy>, политикой защиты контента).\n\nВключение этой опции ослабит ограничения <CSP>, позволяя загружать содержимое основного стиля. Эта опция предназначена только для опытных пользователей, которые понимают потенциальные последствия для безопасности и берут на себя ответственность за контроль содержимого, которое они разрешают. Опция предназначена для опытных пользователей, понимающих риски. Подробнее об атаках через CSS — в интернете..\n\nТакже имейте в виду, что эта конкретная опция не гарантированно вступит в силу, если другое установленное расширение первым изменит ответ сети."
+  },
+  "optionsAdvancedSites": {
+    "message": "...только на подходящих сайтах",
+    "description": "Маркировка расширенной опции, показана ниже несколько опций с настраиваемыми сайтами, такими как optionsAdvancedStyleViaXhr"
+  },
+  "optionsAdvancedSitesNote": {
+    "description": "Подсказка для опции. Обязательно сохраняйте новые строки, <> и текст внутри, так как он будет переформатирован на экране",
+    "message": "<abc.com> один сайт.\n<*.abc.com> сайт + поддомены.\n<-m.abc.com> исключение с префиксом \"-\".\n<*> все сайты (удобно с исключениями).\n<#abc.com> игнорируется из-за неверного символа.\n<*://abc.*/xyz> простой glob-шаблон.\n<https://abc.com/xyz> полный URL.\nЗаписи разделяются пробелом или новой строкой. Текст сохраняется автоматически при Ctrl-S / ⌘S или потере фокуса."
+  },
+  "optionsAdvancedStyleViaASS": {
+    "message": "Обойти CSP 'style-src' с помощью принятых стилей"
+  },
+  "optionsAdvancedStyleViaXhr": {
+    "message": "Режим мгновенного ввода"
+  },
+  "optionsAdvancedStyleViaXhrNote": {
+    "message": "Включите при мигании неоформленного контента (FOUC),  особенно заметном с тёмными темами при открытии страницы.\n\nЭта опция использует \"устаревший\" синхронный XMLHttpRequest, выполняемый внутренне для получения кэша фонового расширения, то есть это не сетевой запрос, поэтому влияние на производительность незначительно."
+  },
+  "optionsBadgeDisabled": {
+    "message": "Цвет фона в неактивном состоянии"
+  },
+  "optionsBadgeNormal": {
+    "message": "Цвет фона"
+  },
+  "optionsCustomizeBadge": {
+    "message": "Значок на пиктограмме в панели"
+  },
+  "optionsCustomizeIcon": {
+    "message": "Значок в панели"
+  },
+  "optionsCustomizePopup": {
+    "message": "Всплывающее окно"
+  },
+  "optionsCustomizeSync": {
+    "message": "Синхронизация с облаком"
+  },
+  "optionsCustomizeUpdate": {
+    "message": "Обновления"
+  },
+  "optionsHeading": {
+    "message": "Настройки",
+    "description": "Заголовок страницы настроек."
+  },
+  "optionsIconAuto": {
+    "message": "В соответствии с ночным/дневным режимом"
+  },
+  "optionsIconDark": {
+    "message": "Тёмные иконки"
+  },
+  "optionsIconLight": {
+    "message": "Светлые иконки"
+  },
+  "optionsPopupWidth": {
+    "message": "Ширина всплывающего окна (в пикселях)"
+  },
+  "optionsReset": {
+    "message": "Сброс настроек к значениям по умолчанию"
+  },
+  "optionsResetButton": {
+    "message": "Сброс настроек"
+  },
+  "optionsStylusThemes": {
+    "message": "Нажмите на значок с буквой S в верхней панели браузера на любой странице Stylus, в том числе и этой, затем нажмите «Найти стили»"
+  },
+  "optionsSyncConnect": {
+    "message": "Подключено"
+  },
+  "optionsSyncDisconnect": {
+    "message": "Отключено"
+  },
+  "optionsSyncLogin": {
+    "message": "Логин"
+  },
+  "optionsSyncNone": {
+    "message": "Ничего"
+  },
+  "optionsSyncPassword": {
+    "message": "Пароль"
+  },
+  "optionsSyncStatusConnected": {
+    "message": "Подключено"
+  },
+  "optionsSyncStatusConnecting": {
+    "message": "Подключение..."
+  },
+  "optionsSyncStatusDisconnected": {
+    "message": "Отключено"
+  },
+  "optionsSyncStatusDisconnecting": {
+    "message": "Отключение…"
+  },
+  "optionsSyncStatusPull": {
+    "message": "Загружено стилей $loaded$ из $total$",
+    "placeholders": {
+      "loaded": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "optionsSyncStatusPush": {
+    "message": "Загружено стилей $loaded$ из $total$",
+    "placeholders": {
+      "loaded": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "optionsSyncStatusRelogin": {
+    "message": "Сессия истекла, пожалуйста, войдите снова."
+  },
+  "optionsSyncStatusSyncing": {
+    "message": "Синхронизация..."
+  },
+  "optionsSyncSyncNow": {
+    "message": "Синхронизировать сейчас"
+  },
+  "optionsSyncUrl": {
+    "message": "URL адрес"
+  },
+  "optionsSyncUsername": {
+    "message": "Имя"
+  },
+  "optionsUpdateInterval": {
+    "message": "Промежуток обновления стилей, в часах (укажите 0 для отключения)"
+  },
+  "optionsUrlInstaller": {
+    "message": "Открывать установщик UserCSS-стилей на любом сайте"
+  },
+  "optionsUrlInstallerNote": {
+    "message": "Включите, чтобы устанавливать стили при выполнении условий:\n1) URL заканчивается на .user.css / .user.less / .user.styl,\n2) URL ведёт на чистый текст стиля (raw), а не на HTML-страницу..\n\nОтключите, чтобы разрешить установку только стили с галереи:\n$LIST$.",
+    "description": "$LIST$ is replaced with a list of sites (like 3).",
+    "placeholders": {
+      "LIST": {
+        "content": "$1"
+      }
+    }
+  },
+  "overwriteFileExport": {
+    "message": "Хотите перезаписать существующий файл?"
+  },
+  "paginationCurrent": {
+    "message": "Текущая страница",
+    "description": "Подсказка к текущему номеру страницы в поиске"
+  },
+  "paginationEstimated": {
+    "message": "Предположительное количество страниц",
+    "description": "Подсказка для общего количества страниц в результатах поиска"
+  },
+  "paginationNext": {
+    "message": "Следующая страница",
+    "description": "Подсказка для кнопки '->' (следующая страница) в результатах поиска"
+  },
+  "paginationPrevious": {
+    "message": "Предыдущая страница",
+    "description": "Подсказка для кнопки '<-' в результатах поиска"
+  },
+  "paginationTotal": {
+    "message": "Всего страниц"
+  },
+  "parseUsercssError": {
+    "message": "Stylus не смог разобрать UserCSS:",
+    "description": "Сообщение об ошибке парсинга UserCSS"
+  },
+  "popupAutoResort": {
+    "message": "Сортировать стили после переключения ",
+    "description": "Lалочка пересортировки списка после изменения состояния."
+  },
+  "popupBorders": {
+    "message": "Добавить белую рамку по бокам"
+  },
+  "popupBordersTooltip": {
+    "message": "Полезно для тёмных тем оформления т.к. новый Chrome отображает рамки по бокам"
+  },
+  "popupHotkeysInfo": {
+    "message": "<1>-<9>, <0>, и цифровой блок - переключает стиль по номеру (0 это 10)\n<A>-<Z> переключает стиль, начинающийся с нажатой буквы\n<Shift> открывает в редакторе вместо переключения\n<+> включает стили в списке\n<–> выключает стили в списке\n<*> и <`> (обратный апостроф) - переключает изначально включенные стили вне зависимости от последующего переключения других ранее не включенных стилей, так что можно протестировать и восстановить исходный список, нажав <–> <*>\nПодробнее на вики.",
+    "description": "Примечание1: Сохраните символы < и > таким образом, чтобы <горячая клавиша> была оформлена как клавиша.\nПримечание2: последняя строка отображается в виде текста ссылки на руководство\nПримечание3: это список горячих клавиш, отображаемых после нажатия на правый край всплывающего окна расширения."
+  },
+  "popupHotkeysInfoMenu": {
+    "message": "Зажмите <Enter> (или <▤>) и нажмите цифру, чтобы открыть меню соответствующего стиля.",
+    "description": "Сохраните символы < и > таким образом, чтобы <горячая клавиша> была оформлена как клавиша"
+  },
+  "popupHotkeysInfoSide": {
+    "message": "Щелкните правой кнопкой мыши или удерживайте нажатой кнопку действия, чтобы принудительно открыть боковую панель. Вы можете изменить поведение по умолчанию в настройках🞂 $side$.",
+    "description": "$side$ заменяется переводом для действий на боковой панели опции: \"Боковая панель для всплывающих окон\"",
+    "placeholders": {
+      "side": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupHotkeysInfoTab": {
+    "message": "Зажмите <Alt> чтобы переключить стиль только для текущей вкладки..",
+    "description": "Сохраните символы < и > таким образом, чтобы <горячая клавиша> была оформлена как клавиша"
+  },
+  "popupHotkeysTooltip": {
+    "message": "Показать горячие клавиши",
+    "description": "Всплывающая подсказка отображается при наведении курсора мыши на правый край всплывающего окна расширения"
+  },
+  "popupManageSiteStyles": {
+    "message": "Управление стилями сайта",
+    "description": "Пункт меню управления стилями текущего сайта.Элемент в выпадающем меню для кнопки «Управление» в всплывающем окне, открывающем менеджер со стилями, применимыми к текущему сайту."
+  },
+  "popupMenuButtonTooltip": {
+    "message": "Меню действий",
+    "description": "Подсказка для кнопки меню в всплывающем окне."
+  },
+  "popupOpenEditInWindow": {
+    "message": "Открывать редактор в новом окне",
+    "description": "Метка для галочки, управляющей поведением действия «редактировать» в всплывающем окне."
+  },
+  "popupOpenEditInWindowTooltip": {
+    "message": "Также включается вытаскиванием вкладки из окна браузера\nи выключается перетаскиванием вкладки в другое окно браузера.",
+    "description": "Метка для галочки, управляющей поведением действия «редактировать» в всплывающем окне."
+  },
+  "popupSidePanelOpenHint": {
+    "message": "Правая кнопка мыши: в боковой панели",
+    "description": "Подсказка для некоторых кнопок в всплывающем окне, которые обычно открываются в вкладке или всплывающем окне."
+  },
+  "popupStylesFirst": {
+    "message": "Список стилей сверху",
+    "description": "Галочка размещения списка стилей перед переключателем."
+  },
+  "prefShowBadge": {
+    "message": "Показывать количество активных стилей для открытого сайта",
+    "description": "Галочка показа количества активных стилей."
+  },
+  "preferScheme": {
+    "message": "Настройки светлого/тёмного режима"
+  },
+  "preferSchemeAlways": {
+    "message": "Пока что не учитывается (стиль всегда включён), т.к. общий режим ночи/дня отключён"
+  },
+  "preferSchemeDark": {
+    "message": "Тёмный режим"
+  },
+  "preferSchemeLight": {
+    "message": "Светлый режим"
+  },
+  "preferSchemeNone": {
+    "message": "Нет (всегда включен)"
+  },
+  "previewLabel": {
+    "message": "Предпросмотр",
+    "description": "Предпросмотр в реальном времени во время редактирования."
+  },
+  "previewTooltip": {
+    "message": "Временно применяет стиль пока вы его редактируете.\nСохраните стиль, чтобы сделать изменения постоянными.",
+    "description": "Подсказка для галочки в редакторе стилей, чтобы включить в реальном времени предпросмотр во время редактирования."
+  },
+  "publish": {
+    "message": "Опубликовать",
+    "description": "Заголовок для раздела, чтобы связать стиль с UserStyles.world"
+  },
+  "publishPush": {
+    "message": "Выпустить обновление",
+    "description": "Новое имя кнопки «Опубликовать стиль» при установлении соединения"
+  },
+  "publishReconnect": {
+    "message": "Попробуйте отключить сеть, а затем разместить снова"
+  },
+  "publishRetry": {
+    "message": "Stylus всё ещё пытается разместить этот стиль, но вы можете повторить попытку, если не видите активности аутентификации или всплывающих окон. Повторить попытку сейчас?"
+  },
+  "publishStyle": {
+    "message": "Опубликовать стиль",
+    "description": "Опубликовать текущий стиль на userstyles.world"
+  },
+  "publishUsw": {
+    "message": "Опубликовать на <userstyles.world>",
+    "description": "Название ссылки, на которую вы ссылаетесь в редакторе https://userstyles.world "
+  },
+  "reload": {
+    "message": "Перезагрузить расширение",
+    "description": "Пункт контекстного меню в режиме разработчика"
+  },
+  "replace": {
+    "message": "Заменить",
+    "description": "Надпись поля замены (Ctrl-H)"
+  },
+  "replaceAll": {
+    "message": "Заменить все",
+    "description": "Надпись при замене всего текста"
+  },
+  "replaceWith": {
+    "message": "Заменить на",
+    "description": "Ctrl-H Надпись поля «на что заменить»."
+  },
+  "restoreTemplate": {
+    "message": "Восстановить шаблон по-умолчанию.\n\n(Не влияет на уже открытые страницы редактирования)"
+  },
+  "saveAsTemplate": {
+    "message": "Сохранить как шаблон"
+  },
+  "saved": {
+    "message": "Сохранено",
+    "description": "Уведомление об успешном сохранении"
+  },
+  "search": {
+    "message": "Поиск",
+    "description": "Надпись поля поиска (Ctrl-F)"
+  },
+  "searchCaseSensitive": {
+    "message": "Учитывать регистр букв",
+    "description": "Подсказка для иконки 'Aa', которая поддерживает поиск по регистру в редакторе, отображение на Ctrl-F"
+  },
+  "searchGlobalStyles": {
+    "message": "Также искать глобальные стили ко всем сайтам",
+    "description": "Метка галочки в стиле поиска всплывающего окна, отображаемая при вводе текста для поиска"
+  },
+  "searchGlobalStylesHint": {
+    "message": "Содержит стили, которые применяются ко всем сайтам, если имя содержит текст поиска или текущий сайт.",
+    "description": "Подсказка к галочке глобального поиска"
+  },
+  "searchNumberOfResults": {
+    "message": "Количество совпадений",
+    "description": "Подсказка к общему количеству совпадений Ctrl-F"
+  },
+  "searchNumberOfResults2": {
+    "message": "Количество совпадений в коде и целевых сайтах",
+    "description": "Подсказка к общему количеству совпадений Ctrl-F"
+  },
+  "searchRegexp": {
+ "message": "Используйте нотацию /re/ для поиска регулярными выражениями",
+    "description": "Подсказка к общему количеству совпадений Ctrl-F "
+  },
+  "searchResultInstallCount": {
+    "message": "Всего загрузок",
+    "description": "Метка общего количества установок"
+  },
+  "searchResultNoneFound": {
+    "message": "Стилей для этого сайта не найдено.",
+    "description": "Всплывающее окно при поиске не нашёл ни одного стиля, для этого сайта."
+  },
+  "searchResultNotMatching": {
+    "message": "Стиль установлен, но он не применяется к текущему URL сайта."
+  },
+  "searchResultNotMatchingNote": {
+    "message": "Попробуйте попросить автора этого пользовательского стиля добавить URL.\n\nВы также можете открыть стиль в менеджере и отредактировать его самостоятельно,\nно имейте в виду, что при этом отключается автоматическое обновление этого стиля."
+  },
+  "searchResultRating": {
+    "message": "Рейтинг",
+    "description": "Метка по рейтингу"
+  },
+  "searchResultUpdated": {
+    "message": "Обновлён",
+    "description": "Метка даты последнего обновления"
+  },
+  "searchResultWeeklyCount": {
+    "message": "Загрузок за неделю",
+    "description": "Метка загрузок за последнюю неделю"
+  },
+  "searchStyleQueryHint": {
+    "message": "Поиск имени стиля (с учётом регистра, если используется заглавная буква):\nпо словам — все слова в любом порядке\n\"по фразе\" — точная фраза без кавычек\n/foo.*bar/i — обычное выражение без пробелов (вместо этого используйте \\s)",
+    "description": "Подсказка к полю поиска стилей"
+  },
+  "searchStylesAll": {
+    "message": "Все",
+    "description": "Вариант поиска по всем полям"
+  },
+  "searchStylesCode": {
+    "message": "CSS-код",
+    "description": "Вариант поиска только в коде"
+  },
+  "searchStylesHelp": {
+    "message": "</> или <Ctrl-F> клавиша фокусируется в поле поиска.\nРежим по умолчанию — поиск обычного текста по всем терминам, разделённым пробелами, в любом порядке.\nТочные слова: заключите запрос в двойные кавычки, например <\".header ~ div\">\nРегулярные выражения: включают косые черты и флаги, напр: </body.*?\\ba\\b/i>\n\"По URL\" в выборе области видимости: находит стили, которые применяются к полностью указанному URL, например https://www.example.org/\n\"Метаданные\" в выборе области видимости: поиск по именам, спецификаторам \"Применить к\", URL установки, URL обновления и всему блоку метаданных для стилей UserCSS.",
+    "description": "Текст в мини-справке, отображаемый при нажатии на значок (i) справа от поля ввода поиска в менеджере стилей"
+  },
+  "searchStylesMatchUrl": {
+    "message": "По URL",
+    "description": "Вариант поиска по точному соответствию URL"
+  },
+  "searchStylesMeta": {
+    "message": "Метаданные",
+    "description": "Вариант поиска по метаданным."
+  },
+  "searchStylesName": {
+    "message": "Имя",
+    "description": "Вариант поиска только по имени"
+  },
+  "sectionAdd": {
+    "message": "Добавить раздел",
+    "description": "Надпись кнопки добавления новой секции"
+  },
+  "sectionCode": {
+    "message": "Код",
+    "description": "Заголовок области кода секции"
+  },
+  "sectionRemove": {
+    "message": "Удалить раздел",
+    "description": "Надпись кнопки удаления секции"
+  },
+  "sectionRestore": {
+    "message": "Восстановить удалённый раздел",
+    "description": "Надпись кнопки восстановления удалённой секции"
+  },
+  "sectionUserCSS": {
+    "message": "Редактор разделов не поддерживает syntax UserCSS \nВы можете использовать его в новом стиле:\n1. Нажмите кнопку Экспорт в редакторе, скопируйте текст,\n2. Создайте новый стиль в менеджере стилей или во всплывающем окне,\n3. Активируйте \"[x] $optUserCSS$\",\n4. Вставьте скопированный текст, перезаписав шаблон по умолчанию,\n5. Сохраните новый стиль, отключите или удалите старый.",
+    "description": "1) Сохраняйте переносы строк для удобства чтения. 2) $optUserCSS$ заменяется меткой параметра, например\"[x] Напишите новый стиль как UserCSS\"",
+    "placeholders": {
+      "optUserCSS": {
+        "content": "$1"
+      }
+    }
+  },
+  "sections": {
+    "message": "Разделы",
+    "description": "Заголовок списка секций в классическом редакторе"
+  },
+  "settings": {
+    "message": "Настройки",
+    "description": "Общая метка/заголовок для настроек"
+  },
+  "shortcuts": {
+    "message": "Горячие клавиши",
+    "description": "Перейти к настройке быстрого доступа"
+  },
+  "shortcutsNote": {
+    "message": "Назначить клавишу"
+  },
+  "shortcutsNoteFF": {
+    "message": "В Firefox 66+ вы можете открыть интерфейс клавиатурных сочетаний самостоятельно:\n1) правой кнопкой мыши по значку Stylus в панели браузера, затем «Менеджер»\n(либо откройте about:addons из главного меню или нажмите Ctrl-Shift-A),\n2) на странице, которая откроется, нажмите на значок шестерни в правом верхнем углу,\n3) выберите «Управление горячими клавишами расширений».\n\nТакже настроить клавиши можно и здесь."
+  },
+  "sitesNoteRe": {
+    "description": "Всплывающая подсказка для выбора опции. Не забудьте сохранить символы новой строки, <> и текст внутри, так как он будет переформатирован на экране",
+    "message": "</\\w+://(abc|def)\\.com/(?!xyz).*/> регулярное выражение, которому должен соответствовать весь URL целиком, например в примере есть <\\w+://> для <https://> и <.*> для пути после домена. 2) В этом нет надобности </> везде. 3) Нет необходимости привязывать выражение, поскольку это делается внутренне с помощью <^(abc)$$>."
+  },
+  "sortDateNewestFirst": {
+    "message": "новые сверху",
+    "description": "Текст при сортировке по убыванию даты"
+  },
+  "sortDateOldestFirst": {
+    "message": "старые сверху",
+    "description": "Текст при сортировке по возрастанию даты"
+  },
+  "sortLabel": {
+    "message": "Порядок сортировки списка стилей",
+    "description": "Подсказка к полю сортировки"
+  },
+  "sortLabelTitleAsc": {
+    "message": "Имя в алфавитном порядке",
+    "description": "Группа вариантов сортировки по имени (А→Я)"
+  },
+  "sortLabelTitleDesc": {
+    "message": "Имя в обратном порядке от Я до А ",
+    "description": "Группа вариантов сортировки по имени (Я→А)"
+  },
+  "sortStylesHelp": {
+    "message": "Эта настройка позволяет выбрать упорядочивание списка стилей. По умолчанию названия выводятся в алфавитном порядке. Можно выбрать обратное упорядочивание.\nТакже можно выбрать составной критерий упорядочивания – отдельные критерии разделены знаком + и ведут себя примерно как столбцы в таблице.\nНапример, при выборе «Активные + Имя» все активные стили будут сгруппированы вверху списка, неактивные внизу, а внутри каждой группы строки будут упорядочены по имени.",
+    "description": "Текст в мини-справке, отображаемый при нажатии на значок (i) справа от поля ввода сортировки в менеджере стилей"
+  },
+  "sortStylesHelpTitle": {
+    "message": "Сортировка содержимого",
+    "description": "Ярлык для всплывающего окна с информацией о сортировке в менеджере стилей"
+  },
+  "styleAssetsCSP": {
+    "message": "🩸Элементы стиля, перечисленные ниже, были заблокированы сайтом, но вы можете включить \"$CSP$\" опции для их загрузки:",
+    "description": "$CSP$ = перевод или \"Patch CSP чтобы разрешить ресурсы стиля\"",
+    "placeholders": {
+      "CSP": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleBadRegexp": {
+    "message": "Ошибка в регулярном выражении.",
+    "description": "Сообщение о проверке неверного регулярного выражения в стиле Regexp"
+  },
+  "styleBeautify": {
+    "message": "Стильно украсить CSS",
+    "description": "Надпись кнопки форматирования CSS-Beautifier"
+  },
+  "styleBeautifyHint": {
+    "message": "Подсказка: щёлкните правой кнопкой мыши на кнопке \"Украсить\" или используйте комбинацию клавиш, указанную ниже, чтобы выполнить реформатирование без отображения этой панели",
+    "description": "Подсказка, показанная внутри панели  CSS-улучшенияl"
+  },
+  "styleBeautifyIndentConditional": {
+    "message": "Отступ внутри @media, @supports",
+    "description": "Опция CSS-улучшения"
+  },
+  "styleBeautifyPreserveNewlines": {
+    "message": "Сохранение новых строк",
+    "description": "Опция CSS-улучшения"
+  },
+  "styleCancelEditLabel": {
+    "message": "Вернуться в менеджер стилей",
+    "description": "Надпись кнопки отмены редактирования"
+  },
+  "styleChangesNotSaved": {
+    "message": "Вы изменили этот стиль, но не сохранили его.",
+    "description": "Текст для запроса, когда в стиль вносятся изменения и пользователь пытается выйти без сохранения"
+  },
+  "styleEditor": {
+    "message": "Редактор стилей"
+  },
+  "styleEnabledLabel": {
+    "message": "Включить",
+    "description": "Метка включённого состояния стиля"
+  },
+  "styleForceApplied": {
+    "message": "Принудительно включён через \"$INC$\" в настройках стиля",
+    "description": "Всплывающая подсказка по стилям, $INC$ =  перевод «Личные включённые сайты»",
+    "placeholders": {
+      "INC": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleForceAppliedTab": {
+    "message": "Принудительно включить для текущей вкладки в меню стиля",
+    "description": "Всплывающая подсказка по стилям"
+  },
+  "styleForceTab": {
+    "message": "Только эта вкладка"
+  },
+  "styleFromMozillaFormatError": {
+    "message": "Ошибка импорта формата Mozilla",
+    "description": "Сообщение об ошибке импорта Mozilla-формата"
+  },
+  "styleFromMozillaFormatPrompt": {
+    "message": "Вставьте содержимое стиля в формате Mozilla",
+    "description": "Запрос вставки кода в Mozilla-формате"
+  },
+  "styleInjectionImportance": {
+    "message": "Переключить важность стиля"
+  },
+  "styleInjectionOrder": {
+    "message": "Порядок применения стилей",
+    "description": "Всплывающая подсказка к кнопке в менеджере стилей для открытия диалогового окна, а также заголовок этого диалогового окна"
+  },
+  "styleInjectionOrderHint": {
+    "message": "Перетащите стиль для изменения его позиции. Стили применяются последовательно в нижеуказанном порядке, так что последующий стиль может изменить эффект предыдущих.",
+    "description": "Подсказка в диалоговом окне порядок ввода в Style Manager"
+  },
+  "styleInjectionOrderHint_prio": {
+    "message": "Важные стили всегда применяются после новоустановленных стилей, чтобы иметь «последнее слово». Для изменения важности стиля нажмите на его значок.",
+    "description": "Подсказка в нижней части диалогового окна порядок ввода в Style Manager"
+  },
+  "styleInstallFailed": {
+    "message": "Ошибка установки стиля!\n$error$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    },
+    "description": "Сообщение об ошибке установки"
+  },
+  "styleInstallOverwrite": {
+    "message": "'$stylename$' уже установлен. Обновить?\nВерсии: $oldVersion$ -> $newVersion$",
+    "placeholders": {
+      "stylename": {
+        "content": "$1"
+      },
+      "newVersion": {
+        "content": "$3"
+      },
+      "oldVersion": {
+        "content": "$2"
+      }
+    },
+    "description": "Подтверждение переустановки/обновления стиля"
+  },
+  "styleManager": {
+    "message": "Менеджер стилей"
+  },
+  "styleMissingName": {
+    "message": "Введите имя",
+    "description": "Ошибка, отображаемая при сохранении пользователем без указания имени"
+  },
+  "styleName": {
+    "message": "Название стиля"
+  },
+  "styleNotAppliedExcluded": {
+    "message": "Исключён через \"$EXC$\" в настройках стиля",
+    "description": "Всплывающая подсказка по стилям, $EXC$ — перевод «Личные исключённые сайты»",
+    "placeholders": {
+      "EXC": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleNotAppliedExcludedTab": {
+    "message": "Исключён для текущей вкладки в меню стиля",
+    "description": "Всплывающая подсказка по стилям"
+  },
+  "styleNotAppliedOverridden": {
+    "message": "Ваши \"$INC$\" в настройках стиля переопределяют оригинальные сайты",
+    "description": "Всплывающая подсказка по стилям, $INC$ — перевод «Личные включённые сайты»",
+    "placeholders": {
+      "INC": {
+        "content": "$1"
+      }
+    }
+  },
+  "styleNotAppliedRegexpProblemTooltip": {
+    "message": "Стиль не был применён из-за некорректного Regexp()",
+    "description": "Всплывающая подсказка для стилей, которые не были применены вообще"
+  },
+  "styleNotAppliedSchemeDark": {
+    "message": "Стиль активен только в ночном режиме"
+  },
+  "styleNotAppliedSchemeLight": {
+    "message": "Стиль активен только в дневном режиме"
+  },
+  "stylePreferSchemeLabel": {
+    "message": "Режим"
+  },
+  "styleRegexpInvalidExplanation": {
+    "message": "Некоторые 'regexp()' выражения не удалось скомпилировать."
+  },
+  "styleRegexpPartialExplanation": {
+    "message": "В стиле используются regexp-выражения, которые соответствуют лишь части адреса, что нарушает <a>спецификацию CSS4 @document</a>, требующую соответствия всего адреса целиком. Разделы стиля с такими regexp не были применены к странице. Вероятно, этот стиль был создан в \"Stylish для Chrome\", который некорректно проверяет regexp (известная ошибка)."
+  },
+  "styleRegexpProblemTooltip": {
+    "message": "Кол-во пропущенных разделов из-за неправильного regexp()",
+    "description": "Всплывающая подсказка для стилей, которые были применены только частично"
+  },
+  "styleRegexpTestFull": {
+    "message": "Соответствующие вкладки",
+    "description": "Отчёт RegExp: метка для полностью совпадающих выражений"
+  },
+  "styleRegexpTestInvalid": {
+    "message": "Пропущены некомпилируемые регулярки",
+    "description": "Отчёт RegExp: метка для недопустимых выражений"
+  },
+  "styleRegexpTestNone": {
+    "message": "Нет соответствующих вкладок",
+    "description": "Отчёт RegExp: метка для выражений, которые не соответствуют ни одной из табуляций"
+  },
+  "styleRegexpTestNote": {
+    "message": "Примечание: используйте один символ \\ для экранирования в поле ввода регулярного выражения, которое будет автоматически преобразовано в \\\\ в коде стиля в соответствии со спецификацией для строк в кавычках в CSS.",
+    "description": "Отчёт RegExp: заметка, отображаемая в нижней части диалогового окна"
+  },
+  "styleRegexpTestNote": {
+    "message": "Полезная информация: используйте одиночный \\ в строке ввода regexp, т.к. он автомачески преобразуется в двойной \\\\ в тексте стиля согласно спецификации CSS для строк в кавычках.",
+    "description": "Отчёт RegExp: заметка, отображаемая в нижней части диалогового окна"
+  },
+  "styleRegexpTestPartial": {
+    "message": "Не применено, т.к. соответствие не полное",
+    "description": "Отчёт RegExp: метка для частично совпадающих выражений"
+  },
+  "styleRegexpTestTitle": {
+    "message": "Список соответствующих вкладок (щелкните на адресе, чтобы активировать)",
+    "description": "Заголовок отчёта проверки RegExp"
+  },
+  "styleSaveLabel": {
+    "message": "Сохранить",
+    "description": "Надпись кнопки сохранения стиля"
+  },
+  "styleSettings": {
+    "message": "Стиль",
+    "description": "Заголовок окна настроек стиля"
+  },
+  "styleSitesExclude": {
+    "message": "Личный список исключённых сайтов"
+  },
+  "styleSitesInclude": {
+    "message": "Личный список включённых сайтов"
+  },
+  "styleSitesIncludeNote": {
+    "message": "Сайты, на которых этот стиль включен на вашем персональном устройстве, могут быть добавлены к сайтам, определенным этим стилем, или использоваться вместо них, в зависимости от установленного флажка. Полезно для внешних стилей, которые не следует редактировать, чтобы они могли автоматически обновляться. Обратите внимание, что в многосекционных стилях для вашего добавленного сайта включены все разделы, даже те, которые предназначались для определенных страниц исходного сайта.."
+  },
+  "styleSitesIncludeOvr": {
+    "message": "переопределить стиль",
+    "description": "Флажок в редакторе, который читается как продолжение предыдущей надписи: : `Личные включенные сайты` [x] `переопределять оригинал`, т.е. его включение приведет к тому, что личные включенные сайты будут переопределять стиль"
+  },
+  "styleSitesMatchingRules": {
+    "message": "Ваши личные правила сайтов, соответствующие текущему URL.\n\"+\" — включение, \"-\" — исключение.",
+    "description": "1) За этой подсказкой следует список, например, URL-адреса в домене, URL-адреса и т.д. 2) <br> заменяется флажком и переводом styleSitesIncludeOvr, т.е. Принудительным включением (и [x] переопределением стиля) или исключением ...."
+  },
+  "styleSitesPopupEdit": {
+    "message": "Редактировать полный список личных сайтов можно в «Настройках стиля» в редакторе \"Style settings\" in the editor"
+  },
+  "styleSitesPopupHeading": {
+    "message": "Включить (и <br>) или исключить стиль при посещении:",
+    "description": "1) За этой подсказкой следует список, например, URL-адреса в домене, URL-адреса и т.д. 2) <br> заменяется флажком и переводом styleSitesIncludeOvr, т.е. Принудительным включением (и [x] переопределением стиля) или исключением ...."
+  },
+  "styleToMozillaFormatHelp": {
+    "message": "Формат кода Mozilla можно отправлять на сайт userstyles.org и использовать в дополнении Stylish для Firefox.",
+    "description": "Справочная информация для раздела заголовка Mozilla format, который преобразует код в/из формата Mozilla"
+  },
+  "styleToMozillaFormatTitle": {
+    "message": "Стиль в формате Mozilla",
+    "description": "Заголовок всплывающего окна с кодом стиля в формате Mozilla, отображаемый после нажатия кнопки Экспорт на странице редактирования стиля"
+  },
+  "styleUpdateDiscardChanges": {
+    "message": "Стиль был изменён вне редактора. Перезагрузить?",
+    "description": "Подтверждение перезагрузки изменённого стиля"
+  },
+  "styleUpdateUrlLabel": {
+    "message": "URL адрес обновлений"
+  },
+  "stylusUnavailableForURL": {
+    "message": "Этот адрес не поддерживается.",
+    "description": "Всплывающее окно панели инструментов, когда на URL-адрес Stylus  не может повлиять."
+  },
+  "stylusUnavailableForURLdetails": {
+    "message": "В целях безопасности браузер запрещает расширениям изменять встроенные страницы (chrome://, about:, новая вкладка в Chrome 61+, страницы других расширений, магазин расширений и т.д.)",
+    "description": "Всплывающее окно панели инструментов, когда на URL-адрес Stylus  не может повлиять."
+  },
+  "syncError": {
+    "message": "Сбой синхронизации",
+    "description": "Всплывающая подсказка для иконки на панели инструментов"
+  },
+  "syncErrorLock": {
+    "message": "Хранилище данных уже занято. Доступ закрыт до $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1"
+      }
+    }
+  },
+  "syncErrorRelogin": {
+    "message": "Ошибка синхронизации. Произведён выход из учётной записи.\n\nПопробуйте подключиться ещё раз в настройках Stylus.",
+    "description": "Сообщение при истечении сессии"
+  },
+  "syncStorageErrorSaving": {
+    "message": "Ошибка сохранения. Попробуйте уменьшить количество текста.",
+    "description": "Отображается при попытке сохранить слишком большое значение с помощью storage.sync API"
+  },
+  "toggleCurrentTab": {
+    "message": "Только эта вкладка"
+  },
+  "toggleStyle": {
+    "message": "Включить/выключить стиль",
+    "description": "Label for the checkbox to enable/disable a style"
+  },
+  "toggleStylesHeading": {
+    "message": "Активировать"
+  },
+  "toggleStylesHint": {
+    "message": "Переключите изначально включенные стили так же, как <✱>"
+  },
+  "toggleStylesPerm": {
+    "message": "Постоянно",
+    "description": "Надпись для элементов управления, которая читается как продолжение заголовка выше:\nАктивировать\n[x] [ ] [*] постоянно\n[x] [ ] [*] iтолько на этой вкладке"
+  },
+  "toggleStylesTab": {
+    "message": "Только эта вкладка",
+    "description": "Надпись для элементов управления, которая читается как продолжение заголовка выше:\nАктивировать\n[x] [ ] [*] постоянно\n[x] [ ] [*] только на этой вкладке"
+  },
+  "undo": {
+    "message": "Отменить",
+    "description": "Ярлык кнопки отмены"
+  },
+  "undoGlobal": {
+    "message": "Отменить (глобально)",
+    "description": "CSS-beautify кнопка отмены глобально"
+  },
+  "unreachableAMO": {
+    "message": "Браузер запрещает доступ к сайту",
+    "description": "Примечание во всплывающем окне, отображаемом при открытии на addons.mozilla.org"
+  },
+  "unreachableAMOHint": {
+    "message": "Чтобы разрешить доступ, перейдите на адрес <about:config>, нажмите правой кнопкой в списке, потом «Создать», потом «Логическое», вставьте текст <privacy.resistFingerprinting.block_mozAddonManager> и нажмите OK, <true>, OK, перезагрузите страницу <addons.mozilla.org>.",
+    "description": "Заметка во всплывающем окне при открытии в addons.mozilla.org в Firefox >= 59"
+  },
+  "unreachableCSP": {
+    "message": "Попробуйте включить «$optCSP$» в настройках Stylus.",
+    "description": "Обратите внимание, что во всплывающем окне при открытии на сайте с CSP, который прерывает внедрение в Firefox, $optCSP$ заменяется на перевод для optionsAdvancedPatchCsp.$optCSP$ — перевод «Исправление CSP»",
+    "placeholders": {
+      "optCSP": {
+        "content": "$1"
+      }
+    }
+  },
+  "unreachableContentScript": {
+    "message": "Нет связи со страницей. Попробуйте перезагрузить вкладку.",
+    "description": "Обратите внимание, что во всплывающем окне панели инструментов обычно отображается файл:// URLs после [повторной] загрузки Stylus"
+  },
+  "unreachableFileHint": {
+    "message": "Доступ к адресам file:// возможен только, если включить соответствующую опцию для Stylus на странице chrome://extensions.",
+    "description": "Обратите внимание на всплывающее окно панели инструментов для file:// URLs"
+  },
+  "unreachableMozSiteHint": {
+    "message": "В Firefox 60 и новее вам нужно удалить этот домен из <extensions.webextensions.restrictedDomains> в <about:config>.",
+    "description": "Примечание во всплывающем окне при открытии на сайте Mozilla с ограниченным доступом в Firefox >= 60"
+  },
+  "unreachableMozSiteHintOldFF": {
+    "message": "Только Firefox 59 и более новые версии могут быть настроены на разрешение WebExtensions добавлять элементы стиля на сайтах, защищённых <CSP>, таких как этот.",
+    "description": "Примечание во всплывающем окне при открытии на сайте Mozilla с ограниченным доступом в Firefox < 59"
+  },
+  "unreachableOpera": {
+    "message": "Пользователям Opera: если это ваша страница поиска, включите «[x] Разрешить доступ к результатам поисковой страницы» в меню ⭕ → Расширения → Расширения → Stylus."
+  },
+  "updateAllCheckSucceededNoUpdate": {
+    "message": "Обновлений нет.",
+    "description": "Текст, который отображается при обновлении, все проверки завершены и обновления недоступны"
+  },
+  "updateAllCheckSucceededSomeEdited": {
+    "message": "Не все стили были проверены, чтобы не потерять возможные локальные изменения. Принудительное обновление стиля можно запустить индивидуально или запустив перепроверку всех обновляемых стилей (локальные изменения будут утеряны).",
+    "description": "Текст, который отображается при обновлении, все проверки завершены и обновления недоступны"
+  },
+  "updateCheckFailBadResponseCode": {
+    "message": "Ошибка обновления: сервер вернул код $code$.",
+    "placeholders": {
+      "code": {
+        "content": "$1"
+      }
+    },
+    "description": "Ошибка из-за неудачного HTTP-кода.Текст, отображаемый при сбое проверки обновления, поскольку код ответа указывает на ошибку"
+  },
+  "updateCheckFailServerUnreachable": {
+    "message": "Ошибка обновления: сервер недоступен.",
+    "description": "Ошибка при недоступности сервера обновлений"
+  },
+  "updateCheckHistory": {
+    "message": "История проверок обновлений"
+  },
+  "updateCheckManualUpdateForce": {
+    "message": "Установить обновление (локальные изменения будут утеряны)",
+
+    "description": "Дополнительный текст, отображаемый при пропущенной проверке обновления, обновляет стиль, чтобы избежать потери локальных изменений"
+  },
+  "updateCheckManualUpdateHint": {
+    "message": "Принудительное обновление удалит локальные изменения.",
+    "description": "Дополнительный текст, отображаемый при пропущенной проверке обновления, обновляет стиль, чтобы избежать потери локальных изменений"
+  },
+  "updateCheckSkippedLocallyEdited": {
+    "message": "Стиль был изменён локально.",
+    "description": "Text that displays when an update check skipped updating the style to avoid losing local modifications"
+  },
+  "updateCheckSkippedMaybeLocallyEdited": {
+    "message": "Возможно, был изменён локально.",
+    "description": "Текст, который отображается, когда проверка обновления пропущена, обновляет стиль, чтобы избежать потери возможных локальных изменений"
+  },
+  "updateCheckSucceededNoUpdate": {
+    "message": "Нет обновлений.",
+    "description": "Текст, который отображается, когда проверка обновления завершена и обновление недоступно"
+  },
+  "updateCompleted": {
+    "message": "Обновление завершено.",
+    "description": "Сообщение после успешного обновления"
+  },
+  "usercssAvoidOverwriting": {
+    "message": "Измените значение @name или @namespace, пожалуйста, чтобы предотвратить перезапись существующего стиля.",
+    "description": "Сообщение при конфликте имён UserCSS.Отображается в окне сообщения при попытке сохранить новый стиль UserCSS, который заменил бы существующий."
+  },
+  "usercssConfigIncomplete": {
+    "message": "Стиль был обновлён или удалён после вызова окна настройки. Следующие настройки не были сохранены, чтобы не повредить метаданные стиля:"
+  },
+  "usercssEditorNamePlaceholder": {
+    "message": "Укажите имя после @name в коде",
+    "description": "Текст-заполнитель для пустого поля ввода имени при создании нового стиля UserCSS"
+  },
+  "usercssReplaceTemplateConfirmation": {
+    "message": "Заменить шаблон по-умолчанию для нового стиля в формате UserCSS текущим кодом?"
+  },
+  "usercssReplaceTemplateSectionBody": {
+    "message": "Место для CSS кода...",
+    "description": "Комментарий-заполнитель кода в новом UserCSS во всплывающем окне"
+  },
+  "versionInvalidOlder": {
+    "message": "Версия старее установленной.",
+    "description": "Сообщение при попытке установить старую версию"
+  },
+  "webRequestBlockingMV3Note": {
+    "message": "Требуется разрешение webRequestBlocking, которое можно включить в ManifestV3 одним из следующих способов:\n\n1) Экспортируйте резервную копию, установите правило $policyName$ для id этого расширения \"$id$\", перезапустите браузер, дождитесь установки расширения, импортируйте резервную копию в менеджер стилей и, по желанию, закрепите иконку на панели инструментов.\n\n2) Измените параметры запуска в командной строке иконки или лаунчера браузера: добавьте пробел и $cmd$",
+    "placeholders": {
+      "policyName": {
+        "content": "$1"
+      },
+      "id": {
+        "content": "$2"
+      },
+      "cmd": {
+        "content": "$3"
+      }
+    }
+  },
+  "writeStyleFor": {
+    "message": "Создать стиль для:",
+    "description": "Надпись перед ссылками создания стиля"
+  },
+  "writeStyleForURL": {
+    "message": "этого адреса",
+    "description": "Ссылка создания стиля для текущего URL"
+  }
+}
